@@ -1,0 +1,1 @@
+puts "Timbrado exitoso. UUID: F4B0E5D5-5A7A-4A4B-8E8D-1C2D3E4F5A6B"
