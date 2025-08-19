@@ -86,3 +86,17 @@ puts "Generando factura para el cliente: #{client_name}"
 ## **RFC**
 
 El **RFC** (Registro Federal de Contribuyentes) es la clave única que usa el **SAT** para identificar a cada persona física o empresa. Se compone de las iniciales del nombre, la fecha de nacimiento/creación y una "homoclave" de 3 dígitos asignada por el **SAT** para que no se repita. ¡Es la cédula de identidad fiscal!
+
+
+## 4. Acordeón de la Lección
+
+## Tipos de Datos y Conceptos en Ruby
+
+| Concepto (Clase en Ruby) | Sintaxis de Ejemplo | Ejemplo de Facturación |
+| :--- | :--- | :--- |
+| **Variable** | `nombre_variable = valor` | `client_rfc = "LAN7008173R5"` |
+| **Cadena (`String`)** | `"Texto entre comillas"` | `product_code = "PROD-001"` |
+| **Entero (`Integer`)** | `123` | `items_count = 5` |
+| **Flotante (`Float`)** | `123.45` | `unit_price = 199.99` |
+| **Booleano (`TrueClass` / `FalseClass`)** | `true` o `false` | `is_credit_note = false` |
+| **Interpolación de Cadenas** | `puts "Texto #{variable}"` | `puts "Factura #{invoice_number}"` |
